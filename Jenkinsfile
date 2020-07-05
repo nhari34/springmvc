@@ -5,10 +5,7 @@ pipeline{
 }
 
     stages{
-        stage('git checkout'){
-            steps{
-                git credentialsId: 'github', url: 'https://github.com/chnaveen112/springmvc'
-            }
+       
         }
         
         stage('mavan build'){
