@@ -5,8 +5,6 @@ pipeline{
 }
 
     stages{
-       
-        }
         
         stage('mavan build'){
             steps{
